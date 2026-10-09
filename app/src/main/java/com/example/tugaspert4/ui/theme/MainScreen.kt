@@ -31,5 +31,7 @@ fun MainScreen(modifier: Modifier = Modifier) {
             ProfileCard(name = stringResource(id = R.string.name_3), phoneNumber = stringResource(id = R.string.phone_3), location = stringResource(id = R.string.loc_3), backgroundColor = colorResource(id = R.color.card_blue), logoResId = R.drawable.logo_umy)
             ProfileCard(name = stringResource(id = R.string.name_4), phoneNumber = stringResource(id = R.string.phone_4), location = stringResource(id = R.string.loc_4), backgroundColor = colorResource(id = R.color.card_green), logoResId = R.drawable.logo_umy)
         }
+
+        Text(text = stringResource(id = R.string.footer_text), fontSize = 12.sp, modifier = Modifier.padding(bottom = 16.dp))
     }
 }
