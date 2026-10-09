@@ -25,6 +25,7 @@ fun ProfileCard(backgroundColor: Color, logoResId: Int) {
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
             Image(painter = painterResource(id = logoResId), contentDescription = null, modifier = Modifier.size(45.dp))
+            Image(painter = painterResource(id = logoResId), contentDescription = null, modifier = Modifier.size(45.dp))
         }
     }
 }
