@@ -5,4 +5,8 @@
 
     <string name="name_1">Rian Pratama</string>
     <string name="loc_1">Kasihan, Bantul</string>
+
+    <string name="name_2">Siti Rahmawati</string>
+    <string name="phone_2">081234567890</string>
+    <string name="loc_2">Wirobrajan, Yogyakarta</string>
 </resources>
