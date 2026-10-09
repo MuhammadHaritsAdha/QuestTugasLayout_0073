@@ -13,4 +13,10 @@
     <string name="name_3">Dimas Anggara</string>
     <string name="phone_3">085678901234</string>
     <string name="loc_3">Depok, Sleman</string>
+
+    <string name="name_4">Dewi Lestari</string>
+    <string name="phone_4">087890123456</string>
+    <string name="loc_4">Gamping, Sleman</string>
+
+    <string name="footer_text">Copyright, 2026</string>
 </resources>
