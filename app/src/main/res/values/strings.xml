@@ -9,4 +9,8 @@
     <string name="name_2">Siti Rahmawati</string>
     <string name="phone_2">081234567890</string>
     <string name="loc_2">Wirobrajan, Yogyakarta</string>
+
+    <string name="name_3">Dimas Anggara</string>
+    <string name="phone_3">085678901234</string>
+    <string name="loc_3">Depok, Sleman</string>
 </resources>
