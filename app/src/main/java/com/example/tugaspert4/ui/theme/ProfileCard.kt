@@ -16,7 +16,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun ProfileCard(name: String, location: String, backgroundColor: Color, logoResId: Int) {
+fun ProfileCard(name: String, phoneNumber: String? = null, location: String, backgroundColor: Color, logoResId: Int) {
     Card(
         modifier = Modifier.fillMaxWidth().padding(vertical = 8.dp),
         shape = RoundedCornerShape(16.dp),
@@ -30,6 +30,9 @@ fun ProfileCard(name: String, location: String, backgroundColor: Color, logoResI
             Image(painter = painterResource(id = logoResId), contentDescription = null, modifier = Modifier.size(45.dp))
             Column(modifier = Modifier.weight(1f).padding(horizontal = 12.dp)) {
                 Text(text = name, fontWeight = FontWeight.Bold, fontSize = 16.sp, color = Color.White)
+                if (!phoneNumber.isNullOrEmpty()) {
+                    Text(text = phoneNumber, fontSize = 12.sp, color = Color.Cyan)
+                }
                 Text(text = location, fontSize = 12.sp, color = Color(0xFFFFD700))
             }
             Image(painter = painterResource(id = logoResId), contentDescription = null, modifier = Modifier.size(45.dp))
